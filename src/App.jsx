@@ -8,9 +8,9 @@ export default function App() {
   };
 
   return (
-    <div style={{ textAlign: "center", marginTop: "2rem" }}>
+    <div className="app-card">
       <h1>Button Counter</h1>
-      <button onClick={handleClick} style={{ fontSize: "1.25rem", padding: "0.5rem 1rem" }}>
+      <button onClick={handleClick} className="skeu-btn">
         Click me
       </button>
       <p>Presses: {count}</p>
